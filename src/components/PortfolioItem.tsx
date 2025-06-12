@@ -2,16 +2,16 @@ import React from "react";
 
 interface PortfolioItemProps {
     title: string;
-    imgUrl: string;
+    imgURL: string;
     stack: string[];
     link: string;
   }
 
-  const PortfolioItem: React.FC<PortfolioItemProps> = ({ title, imgUrl, stack, link }) => {
+  const PortfolioItem: React.FC<PortfolioItemProps> = ({ title, imgURL, stack }) => { //Removed link for now to silence error
     return (
         <div className="border-2 border-stone-900 rounded-md overflow-hidden">
             <img 
-                src={imgUrl} 
+                src={imgURL} 
                 alt="portfolio image"
                 className="w-full h-36 md:h-48 object-cover cursor-pointer"
             />
