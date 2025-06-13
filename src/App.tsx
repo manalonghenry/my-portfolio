@@ -6,7 +6,6 @@ import Portfolio from './components/Portfolio';
 import Timeline from './components/Timeline';
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
-import React, {useEffect, useState} from 'react';
 
 function App() {
   
